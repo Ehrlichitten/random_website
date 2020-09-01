@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template, redirect, request
 from PIL import Image
 import csv
@@ -27,6 +26,7 @@ def submit_form():
             print(data)
             return "done"
         except:
+            return"such a shame:("
 from flask import Flask, render_template, redirect, request
 from PIL import Image
 import csv
