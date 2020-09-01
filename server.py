@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from flask import Flask, render_template, redirect, request
 from PIL import Image
 import csv
@@ -27,7 +27,6 @@ def submit_form():
             print(data)
             return "done"
         except:
-=======
 from flask import Flask, render_template, redirect, request
 from PIL import Image
 import csv
@@ -56,5 +55,4 @@ def submit_form():
             print(data)
             return "done"
         except:
->>>>>>> 2b88b82f604cd4188130e812adcadd2f984eb2d5
             return 'smth is clearly wrong'
